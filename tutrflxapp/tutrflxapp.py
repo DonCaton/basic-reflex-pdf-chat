@@ -52,14 +52,14 @@ def WorkProgress() -> rx.State.event_handlers:
 def index() -> rx.Component:
     return rx.container(
         rx.vstack(
-            rx.image(src="UDD-negro.png",
+            rx.image(src="logo-uc-azul.png",
                      width="10em",
                      height="auto"
                      ),
             rx.span("Prototipo"),
-            rx.heading("El Bot de Alumnos UDD",
+            rx.heading("Derecho UC",
                        color="black"),
-            rx.heading("Chatea con documentos oficiales",
+            rx.heading("Revisión documental con LLM",
                        color="black",
                        size="sm"),
             rx.upload(

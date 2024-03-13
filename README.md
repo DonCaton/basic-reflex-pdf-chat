@@ -3,6 +3,7 @@
 ## Instrucciones
 
 - Instalar ambiente virtual de Python 3.11 con venv (Por ejemplo: ```python3.11 -m venv .venv```)
+- (```source venv/bin/activate```)
 - Instalar Reflex y otros requerimientos usando ```pip install -r requirements.txt```
 - ```reflex init```
 - ```reflex run```
